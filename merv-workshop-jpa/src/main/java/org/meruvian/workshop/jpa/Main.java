@@ -1,4 +1,4 @@
-package org.meruvian.workshop.hibernate;
+package org.meruvian.workshop.jpa;
 
 import java.util.Date;
 import java.util.List;
@@ -7,11 +7,10 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
-import javax.persistence.Query;
 import javax.persistence.TypedQuery;
 
-import org.meruvian.workshop.hibernate.entity.News;
-import org.meruvian.workshop.hibernate.entity.Category;
+import org.meruvian.workshop.jpa.entity.Category;
+import org.meruvian.workshop.jpa.entity.News;
 
 
 public class Main {

@@ -1,4 +1,4 @@
-package org.meruvian.workshop.hibernate.entity;
+package org.meruvian.workshop.jpa.entity;
 
 import java.util.Date;
 

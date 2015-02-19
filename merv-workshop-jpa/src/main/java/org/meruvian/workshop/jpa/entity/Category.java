@@ -1,4 +1,4 @@
-package org.meruvian.workshop.hibernate.entity;
+package org.meruvian.workshop.jpa.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
