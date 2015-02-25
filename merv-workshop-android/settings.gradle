@@ -1,0 +1,1 @@
+include ':sample-crud', ':sample-form', ':sample-rest'

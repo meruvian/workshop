@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sample CRUD</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+
+    <string name="action">Actions</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
