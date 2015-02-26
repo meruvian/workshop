@@ -1,0 +1,5 @@
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-crud/app/build/intermediates/classes/debug
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-crud/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9563ed059422c3fdb5d5da6c82527f93423acd24.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-crud/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-99a6b32c96a090c4c5ac047f3d3b4ee12ce1d521.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-crud/app/build/intermediates/pre-dexed/debug/classes-459596c48c3a4bfe7092500a18686cc4e98110bc.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-crud/app/build/intermediates/pre-dexed/debug/classes-369193ffaf72bdf8f0694be7c0b4fa32514a1fa7.jar

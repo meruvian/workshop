@@ -1,0 +1,5 @@
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-list-dialog/app/build/intermediates/classes/debug
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-list-dialog/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9563ed059422c3fdb5d5da6c82527f93423acd24.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-list-dialog/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-c1437cb59f4e5717adae754c04166e4b57bdb1cf.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-list-dialog/app/build/intermediates/pre-dexed/debug/classes-9e12ab06ab555e4ad2f80c4ea925b0c0a11fed0f.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-android-form-list-dialog/app/build/intermediates/pre-dexed/debug/classes-73458914961fd333e4bfce886981dd226aa03c91.jar
