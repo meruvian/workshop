@@ -1,5 +1,0 @@
-/home/ludviantoovandi/git/workshop-v1/android/sample-form/build/intermediates/classes/debug
-/home/ludviantoovandi/git/workshop-v1/android/sample-form/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9563ed059422c3fdb5d5da6c82527f93423acd24.jar
-/home/ludviantoovandi/git/workshop-v1/android/sample-form/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-25f343b6126b67c23a76edc094f409459ae9d224.jar
-/home/ludviantoovandi/git/workshop-v1/android/sample-form/build/intermediates/pre-dexed/debug/classes-2f6d2daa46128611df2135243137ea645934d03e.jar
-/home/ludviantoovandi/git/workshop-v1/android/sample-form/build/intermediates/pre-dexed/debug/classes-59add68036115b1f8cba82d845e3353a492be41d.jar

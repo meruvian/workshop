@@ -1,5 +1,0 @@
-/home/ludviantoovandi/git/workshop/merv-workshop-android-rest/app/build/intermediates/classes/debug
-/home/ludviantoovandi/git/workshop/merv-workshop-android-rest/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9563ed059422c3fdb5d5da6c82527f93423acd24.jar
-/home/ludviantoovandi/git/workshop/merv-workshop-android-rest/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-443f8937054bb9c82d45a24c15f698dcf7bb8ba9.jar
-/home/ludviantoovandi/git/workshop/merv-workshop-android-rest/app/build/intermediates/pre-dexed/debug/classes-ed988a1a4dc5c93615dd0c48c5888dd3fa4056e2.jar
-/home/ludviantoovandi/git/workshop/merv-workshop-android-rest/app/build/intermediates/pre-dexed/debug/classes-717d45c56ca6911f20c41b448f7c591011b371d4.jar
