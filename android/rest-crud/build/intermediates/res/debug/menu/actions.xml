@@ -18,4 +18,4 @@
         android:icon="@android:drawable/ic_menu_save"
         android:title="@string/save"
         app:showAsAction="withText|always" />
-</menu><!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sample-rest-crud/src/main/res/menu/actions.xml -->
+</menu><!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/rest-crud/src/main/res/menu/actions.xml -->

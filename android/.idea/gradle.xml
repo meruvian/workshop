@@ -8,15 +8,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/sample-form" />
-            <option value="$PROJECT_DIR$/sample-form-action" />
-            <option value="$PROJECT_DIR$/sample-form-crud" />
-            <option value="$PROJECT_DIR$/sample-form-list" />
-            <option value="$PROJECT_DIR$/sample-form-list-dialog" />
-            <option value="$PROJECT_DIR$/sample-rest" />
-            <option value="$PROJECT_DIR$/sample-rest-crud" />
-            <option value="$PROJECT_DIR$/sample-sqlite" />
-            <option value="$PROJECT_DIR$/sample-sqlite-crud" />
+            <option value="$PROJECT_DIR$/form" />
+            <option value="$PROJECT_DIR$/form-action" />
+            <option value="$PROJECT_DIR$/form-crud" />
+            <option value="$PROJECT_DIR$/form-list" />
+            <option value="$PROJECT_DIR$/form-list-dialog" />
+            <option value="$PROJECT_DIR$/rest" />
+            <option value="$PROJECT_DIR$/rest-crud" />
+            <option value="$PROJECT_DIR$/sqlite" />
+            <option value="$PROJECT_DIR$/sqlite-crud" />
           </set>
         </option>
       </GradleProjectSettings>

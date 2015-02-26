@@ -32,4 +32,4 @@
         android:maxLines="5"
         android:minLines="3"
         android:gravity="top" />
-</LinearLayout><!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sample-form-action/src/main/res/layout/activity_news.xml -->
+</LinearLayout><!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/form-action/src/main/res/layout/activity_news.xml -->

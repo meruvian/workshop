@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sample-form-crud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/form-crud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -153,7 +153,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sample-form-crud/src/main/res/values/strings.xml -->
+    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/form-crud/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action">Actions</string>
     <string name="app_name">Sample Form</string>
@@ -177,12 +177,12 @@
     <string name="success_update_news">Succeed update news</string>
     <string name="title">Title</string>
     <string name="yes">Yes</string>
-    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sample-form-crud/src/main/res/values/styles.xml -->
+    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/form-crud/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
     </style>
-    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sample-form-crud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
+    <!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/form-crud/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance">
         <item name="android:textColor">?android:textColorPrimary</item>

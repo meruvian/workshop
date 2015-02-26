@@ -25,4 +25,4 @@
         android:layout_marginTop="5dp"
         android:textAppearance="?android:attr/textAppearanceMedium"/>
 
-</LinearLayout><!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sample-sqlite/src/main/res/layout/adapter_news.xml -->
+</LinearLayout><!-- From: file:/home/ludviantoovandi/git/workshop-v1/android/sqlite/src/main/res/layout/adapter_news.xml -->
