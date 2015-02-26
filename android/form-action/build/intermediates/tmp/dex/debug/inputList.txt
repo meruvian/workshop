@@ -1,0 +1,5 @@
+/home/ludviantoovandi/git/workshop/merv-workshop-andorid-form-action/app/build/intermediates/classes/debug
+/home/ludviantoovandi/git/workshop/merv-workshop-andorid-form-action/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-9563ed059422c3fdb5d5da6c82527f93423acd24.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-andorid-form-action/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-3d143dad1810d811712a11196136f32105e30171.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-andorid-form-action/app/build/intermediates/pre-dexed/debug/classes-5d445a38b4a843b7bcea6d642926b002ed66f0dc.jar
+/home/ludviantoovandi/git/workshop/merv-workshop-andorid-form-action/app/build/intermediates/pre-dexed/debug/classes-343a6fee9ec618d0d586cdaefb2fdf2ec2203ca6.jar
