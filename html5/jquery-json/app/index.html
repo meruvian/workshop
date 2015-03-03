@@ -8,192 +8,27 @@
 		<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		<!-- build:css(.) styles/vendor.css -->
 		<!-- bower:css -->
-		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
-		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
-		<!-- endbower -->
-		<!-- endbuild -->
-		<!-- build:css(.tmp) styles/main.css -->
-		<link rel="stylesheet" href="styles/adminlte/adminlte.css">
-		<!-- endbuild -->
 	</head>
-	<body class="skin-blue fixed">
-		<header class="header">
-			<a href="#" class="logo">Meruvian</a>
-			<!-- Header Navbar: style can be found in header.less -->
-			<nav class="navbar navbar-static-top" role="navigation">
-				<!-- Sidebar toggle button-->
-				<a href="#" class="navbar-btn sidebar-toggle" data-toggle="offcanvas" role="button">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</a>
-				<div class="navbar-right">
-					<ul class="nav navbar-nav">
-						<!-- User Account: style can be found in dropdown.less -->
-						<li class="dropdown user user-menu">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								<i class="glyphicon glyphicon-user"></i>
-								<span>Guest <i class="caret"></i></span>
-							</a>
-							<ul class="dropdown-menu">
-								<!-- User image -->
-								<li class="user-header bg-light-blue">
-									<img src="images/no-profile.jpg" class="img-circle" alt="User Image" />
-									<p>
-										Guest
-										<small>guest</small>
-									</p>
-								</li>
-								<!-- Menu Footer-->
-								<li class="user-footer">
-									<div class="pull-left">
-										<a href="#" class="btn btn-default btn-flat">Edit Profile</a>
-									</div>
-									<div class="pull-right">
-										<a href="#" class="btn btn-default btn-flat">Sign out</a>
-									</div>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
-		
-		<div class="wrapper row-offcanvas row-offcanvas-left">
-			<!-- Left side column. contains the logo and sidebar -->
-			<aside class="left-side sidebar-offcanvas">
-				<!-- sidebar: style can be found in sidebar.less -->
-				<section class="sidebar">
-					<!-- Sidebar user panel -->
-					<div class="user-panel">
-						<div class="pull-left image">
-							<img src="images/no-profile.jpg" class="img-circle" alt="User Image" />
-						</div>
-						<div class="pull-left info">
-							<p>Hello, Guest</p>
-
-							<a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-						</div>
-					</div>
-					
-					<!-- sidebar menu: : style can be found in sidebar.less -->
-					<ul class="sidebar-menu">
-						<li class="active">
-							<a href="#">
-								<i class="fa fa-dashboard"></i> <span>Dashboard</span>
-							</a>
-						</li>
-						<li class="treeview">
-							<a href="#">
-								<i class="fa fa-gears"></i>
-								<span>Module</span>
-								<i class="fa fa-angle-left pull-right"></i>
-							</a>
-							<ul class="treeview-menu">
-								<li><a href="#"><i class="fa fa-angle-double-right"></i> News</a></li>
-							</ul>
-						</li>
-					</ul>
-				</section>
-				<!-- /.sidebar -->
-			</aside>
-		
-			<!-- Right side column. Contains the navbar and content of the page -->
-			<aside class="right-side">
-				<!-- Content Header (Page header) -->
-				<section class="content-header">
-					<h1>
-						News
-						<small>List</small>
-					</h1>
-				</section>
-
-				<!-- Main content -->
-				<section class="content">
-					
-					<div class="row">
-						<div class="col-md-6">
-							<a href="add.html" class="btn btn-default col-md-3">Add</a>
-						</div>
-						<div class="col-md-6">
-							<form method="get">
-								<div class="form-group col-md-10">
-									<input name="q" type="text" class="form-control" placeholder="Search...">
-								</div>
-								 <button type="submit" class="btn btn-primary">Search</button>
-							</form>
-						</div>
-					</div>
-					<br>
-					<div class="row" >
-						<div class="col-md-12">
-							<div class="box">
-								<div class="box-header">
-								</div>
-								<div class="box-body">
-									<div class="table-responsive">
-										<table class="table">
-											<thead>
-												<tr>
-													<th>Title</th>
-													<th>Content</th>
-													<th>Description</th>
-<!-- 													<th>Action</th> -->
-												</tr>
-											</thead>
-											<tbody id="tbody">
-											</tbody>
-										</table>
-									</div>
-								</div>
-								<div class="box-footer">
-									<div class="row">
-										<div class="col-md-6">
-											<div id="pagination"></div>
-										</div>
-										<div class="col-md-6">
-											<div class="pagination alert pull-right">Found 3 entries</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
-				</section>
-				<!-- /.content -->
-				
-				<section class="footer ng-scope" ng-controller="footerCtrl">
-					<div class="navbar-static-bottom">
-						<div class="container">
-							<div class="row">
-								<hr>
-								<div class="col-xs-9">
-									<p class="text-muted">© 2014 - 2015, <a target="_blank" href="#" title="Hoqii">Meruvian Systems</a></p>
-								</div>
-								<div class="col-xs-3">
-									<p class="text-muted"></p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-			</aside><!-- /.right-side -->
-		</div><!-- ./wrapper -->
+	<body>
+		<!--<a href="add.html">Add</a>-->
+		<table class="table">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Content</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody id="tbody">
+			</tbody>
+		</table>
 
 		<!-- build:js(.) scripts/vendor.js -->
 		<!-- bower:js -->
 		<script src="bower_components/jquery/dist/jquery.js"></script>
-		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-		<!-- endbower -->
-		<!-- endbuild -->
 
 		<!-- build:js({.tmp,app}) scripts/scripts.js -->
-		<script src="scripts/app.js"></script>
 		<script src="scripts/controller.js"></script>
-		<script src="scripts/adminlte/app.js"></script>
 		<!-- endbuild -->
 	</body>
 </html>
