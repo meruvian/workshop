@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"title": "Absen di GP Australia, Alonso Pahami Rekomendasi Dokter",
+		"content": "Fernando Alonso kecewa karena harus absen di balapan pembuka Formula 1 musim ini di Australia. Namun, Alonso juga memahami bahwa rekomendasi dari dokter adalah demi kebaikannya sendiri.",
+		"createDate": 1425402280000
+	},
+	{
+		"id": 2,
+		"title": "Mourinho Pastikan Terry Bakal Dapat Kontrak Baru",
+		"content": "Manajer Chelsea, Jose Mourinho, memastikan John Terry akan mendapatkan kontrak baru. Hal tersebut akan membuat sang kapten tetap bersama The Blues musim depan.",
+		"createDate": 1425403344000
+	},
+	{
+		"id": 3,
+		"title": "Van Gaal: Nilai Di Maria di Musim Depan",
+		"content": "Angel Di Maria dikritik setelah performanya kurang memenuhi harapan di Manchester United. Manajer MU Louis van Gaal mengira Di Maria butuh waktu lebih lama untuk beradaptasi.",
+		"createDate": 1425402280000
+	}
+]
