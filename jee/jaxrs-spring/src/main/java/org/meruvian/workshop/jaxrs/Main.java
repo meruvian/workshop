@@ -33,7 +33,7 @@ public class Main implements WebApplicationInitializer {
 	
 	private void registerSwaggerProvider(ServletContext servletContext) {
 		servletContext.setInitParameter("resteasy.resources", "com.wordnik.swagger.jaxrs.listing.ApiListingResourceJSON");
-		servletContext.setInitParameter("resteasy.providers", "com.wordnik.swagger.jaxrs.json.JacksonJsonProvider, "
+		servletContext.setInitParameter("resteasy.providers", "com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider, "
 				+ "com.wordnik.swagger.jaxrs.listing.ApiDeclarationProvider,"
 				+ "com.wordnik.swagger.jaxrs.listing.ResourceListingProvider");
 	}
