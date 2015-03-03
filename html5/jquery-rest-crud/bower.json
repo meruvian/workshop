@@ -1,0 +1,11 @@
+{
+  "name": "jquery-rest-crud",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "^3.2.0"
+  },
+  "devDependencies": {
+  },
+  "appPath": "app",
+  "moduleName": "jqueryRestCrudApp"
+}
