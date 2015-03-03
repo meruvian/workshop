@@ -1,0 +1,25 @@
+[
+	{
+		"name": "Berandas",
+		"link": "#/"
+	},
+	{
+		"name": "Products",
+		"link": "javascript:",
+		"target": "#products"
+	},
+	{
+		"name": "Projects",
+		"link": "javascript:",
+		"target": "#products"
+	},
+	{
+		"name": "Masuk/Daftar",
+		"link": "#/login"
+	},
+	{
+		"name": "Hubungi Kami",
+		"link": "javascript:",
+		"target": "#contact-us"
+	}
+]
