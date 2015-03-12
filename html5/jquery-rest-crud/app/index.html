@@ -30,17 +30,29 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav">
 						<li><a href="index.html">List</a></li>
-						<li><a href="form.html">Create</a></li>
 					</ul>
 				</div><!--/.navbar-collapse -->
 			</div>
 		</nav>
-		<div class="jumbotron">
-			<div class="container">
-				<h1>List</h1>
-			</div>
-		</div>
 		<div class="container">
+			<h1>Add News</h1>
+			<hr>
+			<div class="row">
+				<div class="col-md-12">
+					<form id="news-form">
+						<div class="form-group">
+							<label for="title">Title</label>
+							<input type="text" class="form-control" id="title" placeholder="Judul">
+						</div>
+						<div class="form-group">
+							<label for="content">Content</label>
+							<textarea class="form-control" id="content" placeholder="Konten"></textarea>
+						</div>
+						<button type="submit" class="btn btn-default">Save</button>
+					</form>
+				</div>
+			</div>
+			<hr>
 			<div class="row">
 				<div class="col-md-12">
 					<input type="text" id="search-box" class="form-control" placeholder="Search..." />
@@ -52,8 +64,9 @@
 					<table class="table">
 						<thead>
 							<th>ID</th>
-							<th>Judul</th>
-							<th>Berita</th>
+							<th>Title</th>
+							<th>Content</th>
+							<th>Action</th>
 						</thead>
 						<tbody id="data-table">
 						</tbody>
@@ -76,7 +89,7 @@
 		<!-- endbuild -->
 
 		<!-- build:js({.tmp,app}) scripts/scripts.js -->
-		<script src="scripts/list.js"></script>
+		<script src="scripts/app.js"></script>
 		<!-- endbuild -->
 </body>
 </html>
