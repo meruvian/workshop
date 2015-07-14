@@ -1,5 +1,9 @@
 package org.meruvian.workshop.jaxrs;
 
+import io.swagger.jaxrs.config.BeanConfig;
+import io.swagger.jaxrs.listing.ApiListingResource;
+import io.swagger.jaxrs.listing.SwaggerSerializers;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -7,12 +11,6 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 import org.meruvian.workshop.jaxrs.service.RestNewsService;
-
-import com.wordnik.swagger.jaxrs.config.BeanConfig;
-import com.wordnik.swagger.jaxrs.listing.ApiDeclarationProvider;
-import com.wordnik.swagger.jaxrs.listing.ApiListingResource;
-import com.wordnik.swagger.jaxrs.listing.ApiListingResourceJSON;
-import com.wordnik.swagger.jaxrs.listing.ResourceListingProvider;
 
 @ApplicationPath("/api")
 public class Main extends Application {
@@ -30,13 +28,11 @@ public class Main extends Application {
 		Set<Class<?>> classes = new HashSet<Class<?>>();
 		// Register swagger configurations
 		classes.add(ApiListingResource.class);
-		classes.add(ApiDeclarationProvider.class);
-		classes.add(ApiListingResourceJSON.class);
-		classes.add(ResourceListingProvider.class);
+		classes.add(SwaggerSerializers.class);
 		
 		// Register services
 		classes.add(RestNewsService.class);
-		
+
 		return classes;
 	}
 }
