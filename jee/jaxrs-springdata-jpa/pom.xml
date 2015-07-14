@@ -6,11 +6,11 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<resteasy.version>3.0.8.Final</resteasy.version>
-		<spring.version>4.1.3.RELEASE</spring.version>
-		<spring.data.jpa.version>1.7.1.RELEASE</spring.data.jpa.version>
+		<resteasy.version>3.0.11.Final</resteasy.version>
+		<spring.version>4.1.7.RELEASE</spring.version>
+		<spring.data.jpa.version>1.8.1.RELEASE</spring.data.jpa.version>
 		<hibernate.version>4.3.7.Final</hibernate.version>
-		<swagger.version>1.3.12</swagger.version>
+		<swagger.version>1.5.0</swagger.version>
 		<jdbc.mysql.version>5.1.34</jdbc.mysql.version>
 		<jetty.version>9.2.4.v20141103</jetty.version>
 	</properties>
@@ -23,7 +23,7 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- JAX-RS Implementation -->
+		<!-- RESTEasy JAX-RS -->
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-servlet-initializer</artifactId>
@@ -41,6 +41,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
+			<artifactId>resteasy-jackson2-provider</artifactId>
+			<version>${resteasy.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-spring</artifactId>
 			<version>${resteasy.version}</version>
 			<exclusions>
@@ -51,10 +56,10 @@
 			</exclusions>
 		</dependency>
 		
-		<!-- Swagger APIDoc -->
+		<!-- Swagger API Rest API -->
 		<dependency>
-			<groupId>com.wordnik</groupId>
-			<artifactId>swagger-jaxrs_2.11</artifactId>
+			<groupId>io.swagger</groupId>
+			<artifactId>swagger-jaxrs</artifactId>
 			<version>${swagger.version}</version>
 		</dependency>
 		
@@ -70,17 +75,7 @@
 			<version>${hibernate.version}</version>
 		</dependency>
 		
-		<!-- Spring and Javax Inject -->
-		<dependency>
-			<groupId>org.springframework.data</groupId>
-			<artifactId>spring-data-jpa</artifactId>
-			<version>${spring.data.jpa.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
+		<!-- javax.inject and Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
@@ -88,8 +83,18 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-jpa</artifactId>
+			<version>${spring.data.jpa.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.inject</groupId>

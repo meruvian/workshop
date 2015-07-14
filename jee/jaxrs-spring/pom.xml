@@ -6,13 +6,14 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<resteasy.version>3.0.8.Final</resteasy.version>
-		<spring.version>4.1.3.RELEASE</spring.version>
-		<swagger.version>1.3.12</swagger.version>
+		<resteasy.version>3.0.11.Final</resteasy.version>
+		<spring.version>4.1.7.RELEASE</spring.version>
+		<swagger.version>1.5.0</swagger.version>
 		<jetty.version>9.2.4.v20141103</jetty.version>
 	</properties>
 
 	<dependencies>
+		<!-- Servlet API -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -20,11 +21,7 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<dependency>
-		    <groupId>org.eclipse.jetty</groupId>
-		    <artifactId>jetty-servlets</artifactId>
-		    <version>${jetty.version}</version>
-		</dependency>
+		<!-- RESTEasy JAX-RS -->
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-servlet-initializer</artifactId>
@@ -56,6 +53,8 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<!-- javax.inject & Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
@@ -66,9 +65,11 @@
 			<artifactId>javax.inject</artifactId>
 			<version>1</version>
 		</dependency>
+		
+		<!-- Swagger REST API -->
 		<dependency>
-			<groupId>com.wordnik</groupId>
-			<artifactId>swagger-jaxrs_2.11</artifactId>
+			<groupId>io.swagger</groupId>
+			<artifactId>swagger-jaxrs</artifactId>
 			<version>${swagger.version}</version>
 		</dependency>
 	</dependencies>

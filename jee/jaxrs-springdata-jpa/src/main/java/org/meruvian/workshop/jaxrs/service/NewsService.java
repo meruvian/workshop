@@ -1,5 +1,9 @@
 package org.meruvian.workshop.jaxrs.service;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+
 import java.util.List;
 
 import javax.ws.rs.Consumes;
@@ -16,14 +20,10 @@ import javax.ws.rs.core.MediaType;
 
 import org.meruvian.workshop.jaxrs.entity.News;
 
-import com.wordnik.swagger.annotations.Api;
-import com.wordnik.swagger.annotations.ApiOperation;
-import com.wordnik.swagger.annotations.ApiParam;
-
 @Path("/news")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
-@Api(value = "/news", description = "Operation about news")
+@Api(value = "/news")
 public interface NewsService {
 	@GET
 	@Path("/{id}")

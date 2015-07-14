@@ -27,14 +27,5 @@ public class Main implements WebApplicationInitializer {
 		
 		servletContext.addListener(new ResteasyBootstrap());
 		servletContext.addListener(new ContextLoaderListener(rootContext));
-		
-		registerSwaggerProvider(servletContext);
-	}
-	
-	private void registerSwaggerProvider(ServletContext servletContext) {
-		servletContext.setInitParameter("resteasy.resources", "com.wordnik.swagger.jaxrs.listing.ApiListingResourceJSON");
-		servletContext.setInitParameter("resteasy.providers", "com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider, "
-				+ "com.wordnik.swagger.jaxrs.listing.ApiDeclarationProvider,"
-				+ "com.wordnik.swagger.jaxrs.listing.ResourceListingProvider");
 	}
 }

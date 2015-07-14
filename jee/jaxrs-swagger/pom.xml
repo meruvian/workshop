@@ -12,7 +12,7 @@
 	</properties>
 
 	<dependencies>
-		<!-- RESTEasy JAXRS -->
+		<!-- RESTEasy JAX-RS -->
 		<dependency>
 			<groupId>org.jboss.resteasy</groupId>
 			<artifactId>resteasy-servlet-initializer</artifactId>
