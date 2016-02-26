@@ -1,12 +1,10 @@
 <resources>
-    <string name="app_name">Sample Form</string>
+    <string name="app_name">Simple Form</string>
 
     <string name="title">Title</string>
     <string name="content">Content</string>
 
-    <string name="news_list">News List</string>
-
-    <string name="action">Actions</string>
+    <string name="action">Action</string>
     <string name="save">Save</string>
     <string name="edit">Edit</string>
     <string name="search">Search</string>
@@ -16,14 +14,6 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
-    <string name="failed_recieve_news">Failed receive news</string>
-    <string name="failed_post_news">Failed post news</string>
-    <string name="failed_update_news">Failed update news</string>
-    <string name="failed_delete_news">Failed delete news</string>
-    <string name="success_post_news">Succeed post news</string>
-    <string name="success_update_news">Succeed update news</string>
-    <string name="success_delete_news">Succeed delete news</string>
-    <string name="empty_news">Empty News</string>
+    <string name="news_list">News List</string>
 
-    <string name="loading">Please wait ...</string>
 </resources>
