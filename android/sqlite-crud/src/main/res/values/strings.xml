@@ -1,12 +1,10 @@
 <resources>
-    <string name="app_name">Sample Database CRUD</string>
+    <string name="app_name">Sqlite CRUD</string>
 
     <string name="title">Title</string>
     <string name="content">Content</string>
 
-    <string name="news_list">News List</string>
-
-    <string name="action">Actions</string>
+    <string name="action">Action</string>
     <string name="save">Save</string>
     <string name="edit">Edit</string>
     <string name="search">Search</string>
@@ -15,4 +13,6 @@
     <string name="confirm_delete">Confirm Delete</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+
+    <string name="news_list">News List</string>
 </resources>
