@@ -1,0 +1,222 @@
+<header header="Setting Tabel Parameter" />
+<div class="row">
+	<div class="col-md-12">
+		<div class="box box-primary">
+			<div class="box-body">
+				<div class="modal-header">
+					<h3 class="modal-title"></h3>
+				</div>
+				<form name="productForm"
+					ng-submit="submit(product, productForm)" novalidate
+					validation-schema schema="product">
+					<div class="modal-body">
+						<fieldset>
+							<div class="form-group">
+				               <label class="control-label" for="name">Tunjangan Istri</label>
+				               <div class="controls">
+                         <input type="text" id="name" name="name
+                         _pemda" class="form-control"
+       										ng-model="product.name" required>
+				               </div>
+				            </div>
+				            <div class="form-group">
+				               <label class="control-label" for="category">Tunjangan Anak</label>
+				               <div class="controls">
+                         <input type="text" id="" name="" class="form-control"
+       										ng-model="product.akronim" required>
+				               </div>
+				            </div>
+				            <div class="form-group">
+								<label class="control-label" for="name">Tunjangan Beras Uang</label>
+								<div class="controls">
+									<input type="text" id="" name="" class="form-control"
+										ng-model="product.alamat" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label" for="name">Tunjangan Beras
+    							Natura</label>
+								<div class="controls">
+									<input type="text" id="" name="" class="form-control"
+										ng-model="product.kota" required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="control-label" for="description">Potongan IWP</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Potongan ASKESDA</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Potongan Zakat</label>
+								<div class="controls">
+                  <div class="input-group input-group-sm">
+                    <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                          <button type="button" class="btn btn-primary btn-flat">Cari</button>
+                        </span>
+                  </div>
+								</div>
+							</div>
+              <hr>
+              <div class="form-group">
+								<label class="control-label" for="description">Potongan Infaq</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Tarif Nisab</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Pinalti Non. NPWP</label>
+								<div class="controls">
+                  <div class="input-group input-group-sm">
+                    <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                          <button type="button" class="btn btn-primary btn-flat">Cari</button>
+                        </span>
+                  </div>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Jika terjadi
+    							pembulatan minus (-)</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Batas Usia Pensiun
+    							(BUP)</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+                <div class="checkbox">
+  								<label> <input type="checkbox"> Kode Jiwa PTKP
+  									berdasarkan kondisi awal tahun
+  								</label>
+  							</div>
+							</div>
+              <div class="form-group">
+                <div class="checkbox">
+  								<label> <input type="checkbox"> PTKP Pegawai
+  									wanita Kawin = PTKP Diri sendiri
+  								</label>
+  							</div>
+							</div>
+              <div class="form-group">
+                <div class="checkbox">
+  								<label> <input type="checkbox"> PTKP Pegawai
+  									Wanita Tidak Kawin + PTKP keluarga
+  								</label>
+  							</div>
+							</div>
+              <div class="form-group">
+                <div class="checkbox">
+  								<label> <input type="checkbox"> BPJS Tidak
+  									Menjadi Komponen Pajak
+  								</label>
+  							</div>
+							</div>
+              <div class="form-group">
+                <div class="checkbox">
+  								<label> <input type="checkbox"> Zakat
+  									Masuk Daftar Gaji
+  								</label>
+  							</div>
+							</div>
+              <div class="form-group">
+                <div class="radio">
+									<label> Dasar Zakat & Infaq :
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio"
+										name="optionsRadios" id="optionsRadios1" value="option1"
+										checked> BRUTO
+										&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio"
+										name="optionsRadios" id="optionsRadios2" value="option2">
+										NETTO
+									</label>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Premi Asuransi Jaminan Kecelakaan Kerja (JKK)</label>
+                <div class="input-group input-group-sm">
+                  <input type="text" class="form-control">
+                      <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary btn-flat">Cari</button>
+                      </span>
+                </div>
+							</div>
+              <hr>
+              <div class="form-group">
+								<label class="control-label" for="description">Premi Asuransi Jaminan Kematian (JKN)</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+                <div class="checkbox">
+  								<label> <input type="checkbox"> JKK/JKN Masuk
+    								Daftar Gaji
+  								</label>
+  							</div>
+							</div>
+              <div class="form-group">
+                <div class="checkbox">
+  								<label> <input type="checkbox"> JKK/JKN Tidak
+    								Menjadi Komponen Pajak
+  								</label>
+  							</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Nama Bank</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">N P W P</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+              <div class="form-group">
+								<label class="control-label" for="description">Tgl Batas Proses Gaji</label>
+								<div class="controls">
+                  <input type="text" id="" name="" class="form-control"
+										ng-model="product.provinsi" required>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+					<div class="modal-footer">
+						<input type="submit" value="Save"
+							class="btn btn-primary col-md-3 col-xs-12"> <span
+							class="label label-danger" ng-show="error"> Ops something
+							went wrong! </span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
