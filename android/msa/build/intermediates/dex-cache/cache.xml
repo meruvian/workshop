@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_33cd76430a9e93777b7cefa864b14e7037eb5552.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_1b15197f6dd91a9b6df4bdcabf194b2d224e764c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\okio-1.8.0_6a720921477e2b5941e3583dc68efd03a7db8dac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_61ef74efda45601d42bd96aa1a3e23717e067c78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_50e8843543091d78f89bd74d690c9ccf23f652f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_cc31a4b0caa518c24179e234626523003ff37836.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_0e4f21cc0b10f511907670cebbd282886c1d7185.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_0cdbeb31d05d755a9584914e67c2f521d5fb71b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_ac1c4f886eb054e89b15e2d035962f7b548435b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ce6619a7178d28ae4f66effada1f2114df29f5ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_9efd7286a4ff3deb88e61f5c7136aff1d37fe88d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.0\2b802460eea20f8f2ad9c08c74e0f14718e88aa9\okhttp-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\okhttp-3.3.0_8f4074bba5b8bae0654d2ad36f54c24080653dc7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.7.2\84ffa765dd258dbab8695963c41308b054f3a1cb\jackson-databind-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="84ffa765dd258dbab8695963c41308b054f3a1cb">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\jackson-databind-2.7.2_9259fd98900d4bcf4aa0e00236192d98c6c30076.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.7.0\19f42c154ffc689f40a77613bc32caeb17d744e3\jackson-annotations-2.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="19f42c154ffc689f40a77613bc32caeb17d744e3">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.7.0_69959adc4c6d3568b86cf1ec4f9b655a9743e544.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.7.2\8b8310381b690e317f5f0574e9b2dd7034778b4c\jackson-core-2.7.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8b8310381b690e317f5f0574e9b2dd7034778b4c">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\jackson-core-2.7.2_95effe7b3fa946b3ba297eeca381cc3ac0768cf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_7ced27150707cdd4600ba032edb131215c456b88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_3c2e52bba78ce5e316a63e4d8ff7a379ceeb0695.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_adfaf4f5e92c75988fe18523ec05f8441113e934.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_b7a560c23ab383d5beb52a2eac71d5835afaa9d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_1ba4ee06a1d325cbb705883d3351154813d99ce4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-jackson\2.1.0\ef33476a62d9c62dfca6b6c9e086f2e3343a96f4\converter-jackson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ef33476a62d9c62dfca6b6c9e086f2e3343a96f4">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\converter-jackson-2.1.0_c38c768450da513d7c446e8014974334ccf69502.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_07771f848c27ea20c8f1c82b2963b08de9e33404.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_b30a9483f1488452d5a406ff9261c472076ad620.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\AKM\Documents\MyApplication\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_18de90a00e7447e1f5bac87e12f07f5de51fe058.jar" />
+    </item>
+
+</items>

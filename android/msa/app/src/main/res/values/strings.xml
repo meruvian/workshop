@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Workshop</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete">Are you sure delete this?</string>
+    <string name="yes">Yes</string>
+    <string name="action">Aksi</string>
+    <string name="edit">Edit</string>
+    <string name="no">No</string>
+
+
+</resources>
