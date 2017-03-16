@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Oauth2 Login</string>
+    <string name="main_activity">Main Activity</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="logout">Logout</string>
+    <string name="hello">HELLO...</string>
+    <string name="login_invalid">The username and password you entered did not match our records.Please double-check and try again.</string>
+    <string name="login_failure">Login Failure</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="setup_parameter">Setup Parameter</string>
+    <string name="url_server">URL Server</string>
+
+</resources>

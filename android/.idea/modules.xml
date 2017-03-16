@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
       <module fileurl="file://$PROJECT_DIR$/form/form.iml" filepath="$PROJECT_DIR$/form/form.iml" />
       <module fileurl="file://$PROJECT_DIR$/form-action/form-action.iml" filepath="$PROJECT_DIR$/form-action/form-action.iml" />
       <module fileurl="file://$PROJECT_DIR$/form-crud/form-crud.iml" filepath="$PROJECT_DIR$/form-crud/form-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/form-list/form-list.iml" filepath="$PROJECT_DIR$/form-list/form-list.iml" />
       <module fileurl="file://$PROJECT_DIR$/form-list-dialog/form-list-dialog.iml" filepath="$PROJECT_DIR$/form-list-dialog/form-list-dialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth2-login/oauth2-login.iml" filepath="$PROJECT_DIR$/oauth2-login/oauth2-login.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest/rest.iml" filepath="$PROJECT_DIR$/rest/rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-crud/rest-crud.iml" filepath="$PROJECT_DIR$/rest-crud/rest-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite-crud/sqlite-crud.iml" filepath="$PROJECT_DIR$/sqlite-crud/sqlite-crud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/workshop-android-23.iml" filepath="$PROJECT_DIR$/workshop-android-23.iml" />
     </modules>
   </component>
 </project>

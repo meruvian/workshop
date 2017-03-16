@@ -1,1 +1,11 @@
-include ':form', ':form-action', ':form-list', ':form-list-dialog', ':form-crud', ':fragment', ':sqlite-crud', ':sqlite', ':rest', ':rest-crud'
+include ':form', ':oauth2-login',
+        ':form-action',
+        ':form-list',
+        ':form-list-dialog',
+        ':form-crud',
+        ':fragment',
+        ':sqlite-crud',
+        ':sqlite',
+        ':rest',
+        ':rest-crud'
+
